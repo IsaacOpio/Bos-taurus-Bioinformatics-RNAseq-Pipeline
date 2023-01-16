@@ -1,4 +1,4 @@
-# Msc-Bioinformatics-Highthroughput-Pipeline
+# Bioinformatics-Highthroughput-Pipeline
 
 Variant calling by high throughput sequencing: RNA-seq of longissimus dorsi muscles in Japanese black (Wagyu) and Chinese Red Steppes cattle
 We have RNAseq samples from two cattle breeds. The FASTQs were sampled from larger files using seqtk and the reference genome contains five chromosomes. This was done so that the computations can be run on a laptop.
