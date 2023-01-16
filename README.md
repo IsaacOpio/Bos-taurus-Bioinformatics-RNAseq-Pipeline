@@ -1,7 +1,11 @@
 # Msc-Bioinformatics-Highthroughput-Pipeline
 
-Expression profiling by high throughput sequencing: RNA-seq of longissimus dorsi muscles in Japanese black (Wagyu) and Chinese Red Steppes cattle
-You are provided RNAseq samples from two cattle breeds. The FASTQs were sampled from larger files using seqtk and the reference genome contains five chromosomes. This was done so that the computations can be run on a laptop.
+Variant calling by high throughput sequencing: RNA-seq of longissimus dorsi muscles in Japanese black (Wagyu) and Chinese Red Steppes cattle
+We have RNAseq samples from two cattle breeds. The FASTQs were sampled from larger files using seqtk and the reference genome contains five chromosomes. This was done so that the computations can be run on a laptop.
+
+Data source 
+
+The names of the repository/repositories and accession number(s) can be found at: https://www.ncbi.nlm.nih.gov/genbank/ 
 
 **Project description**
 
@@ -18,8 +22,8 @@ SRR13107021	Chinese Red Steppes cattle
 SRR13107022	Chinese Red Steppes cattle
 SRR13107023	Chinese Red Steppes cattle
 
-**Design two pipelines that utilise the data provided**
+Task
 
-1.	Variant calling from RNAseq using GATK best-practices
-2.	Differential expression analysis using any combination of tools discussed in the previous class
+Variant calling from RNAseq using GATK best-practices
+
 
