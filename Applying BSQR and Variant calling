@@ -1,0 +1,17 @@
+#Apply BQSR
+
+	gatk ApplyBQSR\
+		--bqsr-recal-file HISAT2/"${sample}"_baseRecal.table \
+		--input HISAT2/"${sample}"_sorted_dedup.bam \
+		--output HISAT2/"${sample}"_BQSR.bam \
+		--reference Bos_taurus.fa
+
+#Variant calling
+
+	gatk HaplotypeCaller \
+		--reference Bos_taurus.fa \
+		--input HISAT2/"${sample}"_BQSR.bam \
+		--output HISAT2/"${sample}"_haplotype.g.vcf.gz \
+		--ERC GVCF
+
+done
